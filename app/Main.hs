@@ -1,4 +1,15 @@
 module Main where
 
+-- Función para calcular el área de un círculo
+areaCirculo :: Double -> Double
+areaCirculo radio = pi * radio * radio
+
 main :: IO ()
-main = putStrLn "Hello, como estas!"
+main = do
+    putStrLn "¡Hola mundo desde Haskell en la nube!"
+    putStrLn "Hello, como estas!"
+    putStrLn ""
+    putStrLn "Vamos a calcular el área de un círculo:"
+    let radio = 5.0
+    putStrLn ("Radio: " ++ show radio)
+    putStrLn ("Área: " ++ show (areaCirculo radio))
