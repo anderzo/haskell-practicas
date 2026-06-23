@@ -7,7 +7,7 @@ areaCirculo radio = pi * radio * radio
 main :: IO ()
 main = do
     putStrLn "¡Hola mundo desde Haskell en la nube!"
-    putStrLn "Hello, como estas!"
+    putStrLn "Hola a todo"
     putStrLn ""
     putStrLn "Vamos a calcular el área de un círculo:"
     let radio = 5.0
