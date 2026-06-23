@@ -1,0 +1,15 @@
+{
+  "name": "Haskell",
+  "image": "haskell:9.4.8-slim",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "haskell.haskell"
+      ]
+    }
+  },
+  "postCreateCommand": "cabal update"
+}
