@@ -1,6 +1,6 @@
 module Main where
 
--- Función para calcular el área de un círculo
+-- calcular el área de un círculo
 areaCirculo :: Double -> Double
 areaCirculo radio = pi * radio * radio
 
